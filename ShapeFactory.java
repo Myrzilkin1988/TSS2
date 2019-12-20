@@ -21,7 +21,14 @@ public class ShapeFactory
     public int width;
     public int height;
     
-    public ShapeFactory(final int shape_type) {
+    public ShapeFactory(final int shape_type) 
+    /**
+         *  @param maker - производитель
+         *   @param price - цена
+         *  @see Product#Product()
+         * Coment for JavaDoC
+         */
+    {
         this.width = 25;
         this.height = 25;
         this.stroke = new BasicStroke(3.0f);
